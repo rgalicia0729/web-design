@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select</title>
+</head>
+
+<body>
+  <form action="">
+
+    <label for="frontend">
+      <span>Tecnologias del frontend</span>
+      <select name="frontend" id="frontend">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+      </select>
+    </label>
+
+    <label for="backend">
+      <span>Tecnologias del backend</span>
+      <input list="backend">
+      <datalist id="backend">
+        <option value="Node.js" />
+        <option value="Express.js" />
+        <option value="Sequelize.js" />
+        <option value="Java" />
+        <option value="Python" />
+      </datalist>
+    </label>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+
+</html>
